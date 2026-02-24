@@ -1,0 +1,121 @@
+{
+    "messages": [
+        {
+            "message_type": "HumanMessage",
+            "content": "what is the weather in bengalore",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "id": "5affb19f-71d2-4f85-a341-cf4896d4defe"
+        },
+        {
+            "message_type": "AIMessage",
+            "content": [
+                {
+                    "id": "toolu_013eMAT7T6ktsZ6TMzMdPEGz",
+                    "caller": {
+                        "type": "direct"
+                    },
+                    "input": {
+                        "city": "Bangalore"
+                    },
+                    "name": "get_weather",
+                    "type": "tool_use"
+                }
+            ],
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01PpfpxSEg6b7bwJtYoD9KW8",
+                "container": null,
+                "model": "claude-sonnet-4-5-20250929",
+                "stop_reason": "tool_use",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "inference_geo": "not_available",
+                    "input_tokens": 570,
+                    "output_tokens": 54,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-sonnet-4-5-20250929",
+                "model_provider": "anthropic"
+            },
+            "id": "lc_run--019c9124-6f8d-7bb3-9b30-f812a89251b1-0",
+            "tool_calls": [
+                {
+                    "name": "get_weather",
+                    "args": {
+                        "city": "Bangalore"
+                    },
+                    "id": "toolu_013eMAT7T6ktsZ6TMzMdPEGz",
+                    "type": "tool_call"
+                }
+            ],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 570,
+                "output_tokens": 54,
+                "total_tokens": 624,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        {
+            "message_type": "ToolMessage",
+            "content": "It's always sunny in Bangalore!",
+            "name": "get_weather",
+            "id": "3011ec9f-50c8-4f2d-bb81-e4fafd11b3e9",
+            "tool_call_id": "toolu_013eMAT7T6ktsZ6TMzMdPEGz"
+        },
+        {
+            "message_type": "AIMessage",
+            "content": "The weather in Bangalore is sunny! It's always sunny in Bangalore according to the current information. 🌞",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01NhtnXCH1w2t6SXvpQadGYA",
+                "container": null,
+                "model": "claude-sonnet-4-5-20250929",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "inference_geo": "not_available",
+                    "input_tokens": 644,
+                    "output_tokens": 28,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-sonnet-4-5-20250929",
+                "model_provider": "anthropic"
+            },
+            "id": "lc_run--019c9124-7a7a-7972-98c9-1f33a917b288-0",
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 644,
+                "output_tokens": 28,
+                "total_tokens": 672,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        }
+    ]
+}
