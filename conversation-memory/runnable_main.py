@@ -23,21 +23,28 @@ load_dotenv()
 
 model = ChatOpenAI(model="gpt-4o")
 
-prompt = ChatPromptTemplate.from_messages([
-    ("system", "You are a helpful assistant that explains technical topics clearly. "
-               "Remember conversation context when answering follow-up questions."),
-    MessagesPlaceholder("history"),
-    ("human", "{input}")
-])
+prompt = ChatPromptTemplate.from_messages(
+    [
+        (
+            "system",
+            "You are a helpful assistant that explains technical topics clearly. "
+            "Remember conversation context when answering follow-up questions.",
+        ),
+        MessagesPlaceholder("history"),
+        ("human", "{input}"),
+    ]
+)
 
 chain = prompt | model
 
 store = {}
 
+
 def get_session_history(session_id: str):
     if session_id not in store:
         store[session_id] = InMemoryChatMessageHistory()
     return store[session_id]
+
 
 memory_chain = RunnableWithMessageHistory(
     chain,
@@ -48,7 +55,7 @@ memory_chain = RunnableWithMessageHistory(
 
 print("Chatbot with memory. Type 'exit' to stop.\n")
 
-session_id = "default"
+USER_SESSION_ID = "default"
 
 while True:
     user_input = input("You: ").strip()
@@ -57,7 +64,7 @@ while True:
 
     response = memory_chain.invoke(
         {"input": user_input},
-        config={"configurable": {"session_id": session_id}},
+        config={"configurable": {"session_id": USER_SESSION_ID}},
     )
 
     print("Bot:", response.content)
