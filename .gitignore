@@ -208,3 +208,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Faiss index files
+*.faiss
+*.faiss.index
+*.faiss.index.lock
+*.pkl
+*.pkl.lock

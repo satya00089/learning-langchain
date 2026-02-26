@@ -25,10 +25,10 @@ There are two example runners in this folder:
 python main.py
 ```
 
-- `langchain_main.py` — demonstrates `RunnableWithMessageHistory` + `InMemoryChatMessageHistory`. It stores per-session history and accepts a configurable `session_id` (the example uses `default`). To run:
+- `runnable_main.py` — demonstrates `RunnableWithMessageHistory` + `InMemoryChatMessageHistory`. It stores per-session history and accepts a configurable `session_id` (the example uses `default`). To run:
 
 ```bash
-python langchain_main.py
+python runnable_main.py
 ```
 
 Change `session_id` in the script (or extend the script to accept it from user input) to keep separate conversation threads in memory.

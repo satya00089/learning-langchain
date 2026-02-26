@@ -1,0 +1,8 @@
+faiss-cpu
+langchain
+langchain-anthropic
+langchain-community
+langchain-openai
+langchain-text-splitters
+python-dotenv
+pypdf

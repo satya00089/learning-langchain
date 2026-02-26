@@ -41,6 +41,7 @@ store = {}
 
 
 def get_session_history(session_id: str):
+    """session_id can be user_id or any identifier to group messages into a conversation"""
     if session_id not in store:
         store[session_id] = InMemoryChatMessageHistory()
     return store[session_id]
