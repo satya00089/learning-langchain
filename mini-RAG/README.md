@@ -18,6 +18,21 @@ pip install -r requirments.txt
 python main.py
 ```
 
+Streamlit UI (web)
+- Install dependencies (includes `streamlit`):
+
+```bash
+pip install -r requirments.txt
+```
+
+- Start the Streamlit web UI (from the repo root):
+
+```bash
+streamlit run mini-RAG/streamlit_app.py
+```
+
+- The Streamlit app lets you upload a PDF, builds or loads a FAISS index (`insurance_faiss_index`), and provides a chat-style Q&A input. Use the optional Session ID to keep separate conversation histories.
+
 Notes
 - The script builds a FAISS index and saves it to the `insurance_faiss_index` folder; if that folder exists the index will be reused.
 - The project uses the `OpenAIEmbeddings` and a chat model. Adjust model names or embeddings as needed.
