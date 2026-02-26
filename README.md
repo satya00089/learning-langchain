@@ -16,8 +16,8 @@ Progressive mini-projects (test knowledge by doing)
 - **Basic prompt**: [basic-llm-prompt](basic-llm-prompt) — simple LangChain prompt template + Chat model. Run `python main.py` inside the folder.
 - **Role-based explainer**: [role-based-explainer](role-based-explainer) — generate explanations in different voices (teacher, pirate, lawyer, kid). Run `python main.py`.
 - **Simple 2-step chain**: [simple-chain](simple-chain) — build a 2-step chain (explain simply → give real-world example). Run `python main.py`.
-- **Mini RAG**: [mini-RAG](mini-RAG) — Document Q&A (load a PDF or text, build a FAISS index, ask questions). Run `python main.py` inside the folder.
 - **Conversation memory**: [conversation-memory](conversation-memory) — multiple examples showing in-memory history, `RunnableWithMessageHistory`, and a checkpointer. Try `python main.py`, `python langchain_main.py`, or `python checkpointer_main.py`.
+- **Mini RAG**: [mini-RAG](mini-RAG) — Document Q&A (load a PDF or text, build a FAISS index, ask questions). Run `python main.py` inside the folder.
 - **Basic agent**: [basic-agent](basic-agent) — starter agent examples and small demos. See folder for scripts and run instructions.
 - **Foundations & notebooks**: [lca-lc-foundations](lca-lc-foundations) — longer-form notebooks and exercises for deeper learning. Open notebooks in `notebooks/`.
 
