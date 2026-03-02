@@ -28,7 +28,6 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 
-
 DOCS_DIR = Path(__file__).parent / "docs"
 INDEX_DIR = Path(__file__).parent / "llm_faiss_index"
 
@@ -238,7 +237,8 @@ SAMPLE_QUERIES = [
 ]
 
 
-def chat(chain, vectorstore: FAISS):
+def chat(chain, vector_store: FAISS):
+    """Simple REPL loop for asking questions. Type 'exit' to quit, 'rebuild' to rebuild the index."""
     print("\n" + "=" * 65)
     print("  Multi-Document LLM Ecosystem RAG")
     print("  Sources: OpenAI · Anthropic · Meta · Google · Research")
