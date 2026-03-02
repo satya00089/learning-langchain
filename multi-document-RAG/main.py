@@ -21,14 +21,12 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
-from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
-
-load_dotenv()
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 
 
 DOCS_DIR = Path(__file__).parent / "docs"
@@ -266,15 +264,15 @@ def chat(chain, vectorstore: FAISS):
 
         if question.lower() == "rebuild":
             print("Rebuilding index …")
-            vectorstore = build_vectorstore(force_rebuild=True)
-            chain = build_rag_chain(vectorstore)
+            vector_store = build_vectorstore(force_rebuild=True)
+            chain = build_rag_chain(vector_store)
             print("Index rebuilt. Ready.\n")
             continue
 
         print("\n[Searching across LLM ecosystem docs …]\n")
 
         # Debug: show exactly which sources were retrieved — verify cross-provider diversity
-        debug_retriever = vectorstore.as_retriever(
+        debug_retriever = vector_store.as_retriever(
             search_type="mmr",
             search_kwargs={"k": 8, "fetch_k": 20, "lambda_mult": 0.6},
         )
@@ -282,7 +280,9 @@ def chat(chain, vectorstore: FAISS):
         print("Sources retrieved:")
         for d in retrieved_docs:
             m = d.metadata
-            print(f"  {m.get('provider','?'):<12s} | {m.get('doc_type','?'):<12s} | {m.get('source','?')}")
+            print(
+                f"  {m.get('provider','?'):<12s} | {m.get('doc_type','?'):<12s} | {m.get('source','?')}"
+            )
         print()
 
         answer = chain.invoke(question)
@@ -291,10 +291,11 @@ def chat(chain, vectorstore: FAISS):
 
 
 def main():
+    """Main entry point: load/build index, then start chat loop."""
     load_dotenv()
-    vectorstore = build_vectorstore()
-    chain = build_rag_chain(vectorstore)
-    chat(chain, vectorstore)
+    vector_store = build_vectorstore()
+    chain = build_rag_chain(vector_store)
+    chat(chain, vector_store)
 
 
 if __name__ == "__main__":
