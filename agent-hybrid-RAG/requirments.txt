@@ -1,0 +1,10 @@
+faiss-cpu
+langchain
+langchain-anthropic
+langchain-community
+langchain-openai
+langchain-text-splitters
+langgraph
+python-dotenv
+pypdf
+duckduckgo-search

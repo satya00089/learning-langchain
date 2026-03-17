@@ -1,0 +1,128 @@
+# Azure Functions – Official Reference
+
+## Overview
+Azure Functions is a serverless, event-driven compute service.
+You only pay for the time your code runs; infrastructure is managed by Azure.
+
+---
+
+## Timeout Limits
+
+### Consumption Plan
+- Default timeout : 5 minutes  (00:05:00)
+- Maximum timeout : 10 minutes (00:10:00)
+- Exceeding 10 min is NOT supported on Consumption plan.
+
+### Premium Plan
+- Default timeout : 30 minutes
+- Maximum timeout : Unlimited  (set "functionTimeout": "-1" in host.json)
+
+### Dedicated (App Service) Plan
+- Default timeout : 30 minutes
+- Maximum timeout : Unlimited  (set "functionTimeout": "-1" in host.json)
+
+### Flex Consumption Plan
+- Default timeout : 30 minutes
+- Maximum timeout : Unlimited
+
+### Key host.json setting
+```json
+{
+  "version": "2.0",
+  "functionTimeout": "00:10:00"
+}
+```
+Use "-1" for unlimited (Premium / Dedicated only).
+
+---
+
+## Triggers
+- HTTP Trigger
+- Timer Trigger
+- Blob Storage Trigger
+- Azure Queue Storage Trigger
+- Azure Service Bus Trigger
+- Azure Event Hubs Trigger
+- Azure Cosmos DB Trigger
+- Event Grid Trigger
+
+---
+
+## Scaling
+| Plan        | Max Instances | Cold Start |
+|-------------|---------------|------------|
+| Consumption | 200           | Yes        |
+| Premium     | 100           | No (pre-warmed) |
+| Dedicated   | App Service max | Depends  |
+
+---
+
+## Supported Runtimes / Languages
+- C# (.NET 6 / 7 / 8 isolated or in-process)
+- JavaScript / TypeScript (Node.js 18/20)
+- Python 3.9 / 3.10 / 3.11
+- Java 8 / 11 / 17
+- PowerShell 7.2+
+
+---
+
+## Pricing
+- **Consumption**: 1 million free executions per month; billed per GB-s after that.
+- **Premium**: billed per vCPU-second of pre-warmed instance.
+- **Dedicated**: Standard App Service plan hourly rate.
+
+---
+
+## Cold Start
+- Consumption plan cold starts: typically 0.5–3 seconds.
+- Premium plan: zero cold start due to always-warm instances.
+
+---
+
+## Storage Requirements
+- Every Function App requires an Azure Storage account.
+- Used for trigger coordination, key management, and logging.
+- Storage account must be in the same region as the Function App.
+
+---
+
+## Networking
+- Consumption: shared outbound IPs; no VNet integration by default.
+- Premium: full VNet integration and private endpoints supported.
+- Dedicated: full VNet integration.
+
+---
+
+## Durable Functions
+An extension for stateful, long-running orchestrations.
+Patterns: function chaining, fan-out/fan-in, human interaction, aggregator, monitor.
+Orchestrator functions MUST be deterministic (no DateTime.Now, no random, no I/O).
+
+---
+
+## Bindings (Input / Output)
+Connect to external services without custom SDK code.
+Supported: Blob Storage, Queue Storage, Table Storage, Cosmos DB, Service Bus,
+           Event Hubs, Event Grid, HTTP, Timer, SignalR, Twilio, SendGrid.
+
+---
+
+## Identity & Security
+- Managed Identity (system-assigned or user-assigned) recommended over connection strings.
+- Function keys and host keys available for HTTP triggers.
+- CORS configurable per Function App.
+
+---
+
+## Deployment Options
+- Azure CLI (`az functionapp deployment`)
+- Azure Functions Core Tools (`func azure functionapp publish`)
+- GitHub Actions / Azure DevOps CI-CD
+- ZIP deploy, container deploy
+
+---
+
+## Monitoring
+- Application Insights integration built-in.
+- Live Metrics Stream available.
+- Log Analytics workspace for long-term retention.
