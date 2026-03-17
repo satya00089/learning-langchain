@@ -1,0 +1,987 @@
+## gemini-3.1-pro-preview-high
+Organization: Google
+Global score: 79.93
+
+Performance:
+- Reasoning: 84.0
+- Coding: 76.45
+- Agentic coding: 65.0
+- Mathematics: 91.04
+- Data analysis: 78.54
+- Language: 85.38
+- Instruction following: 79.1
+
+## claude-opus-4-6-thinking-auto-high-effort
+Organization: Anthropic
+Global score: 76.33
+
+Performance:
+- Reasoning: 88.67
+- Coding: 78.18
+- Agentic coding: 61.67
+- Mathematics: 89.32
+- Data analysis: 69.89
+- Language: 83.27
+- Instruction following: 63.31
+
+## claude-opus-4-5-20251101-thinking-64k-high-effort
+Organization: Anthropic
+Global score: 75.96
+
+Performance:
+- Reasoning: 80.09
+- Coding: 79.65
+- Agentic coding: 63.33
+- Mathematics: 90.39
+- Data analysis: 74.44
+- Language: 81.26
+- Instruction following: 62.55
+
+## claude-sonnet-4-6-thinking-auto-medium-effort
+Organization: Anthropic
+Global score: 75.47
+
+Performance:
+- Reasoning: 84.77
+- Coding: 79.27
+- Agentic coding: 60.0
+- Mathematics: 86.99
+- Data analysis: 77.95
+- Language: 76.1
+- Instruction following: 63.22
+
+## claude-sonnet-4-6-thinking-auto-high-effort
+Organization: Anthropic
+Global score: 75.32
+
+Performance:
+- Reasoning: 86.38
+- Coding: 79.98
+- Agentic coding: 56.67
+- Mathematics: 86.53
+- Data analysis: 76.06
+- Language: 77.69
+- Instruction following: 63.92
+
+## gpt-5.2-2025-12-11-high
+Organization: OpenAI
+Global score: 74.84
+
+Performance:
+- Reasoning: 83.21
+- Coding: 76.07
+- Agentic coding: 51.67
+- Mathematics: 93.17
+- Data analysis: 78.16
+- Language: 79.81
+- Instruction following: 61.77
+
+## gpt-5.2-codex
+Organization: OpenAI
+Global score: 74.3
+
+Performance:
+- Reasoning: 77.71
+- Coding: 83.62
+- Agentic coding: 51.67
+- Mathematics: 88.77
+- Data analysis: 78.2
+- Language: 73.68
+- Instruction following: 66.45
+
+## gpt-5.1-codex-max-high
+Organization: OpenAI
+Global score: 73.98
+
+Performance:
+- Reasoning: 83.65
+- Coding: 80.68
+- Agentic coding: 53.33
+- Mathematics: 83.22
+- Data analysis: 70.12
+- Language: 76.48
+- Instruction following: 70.38
+
+## claude-opus-4-5-20251101-thinking-64k-medium-effort
+Organization: Anthropic
+Global score: 73.78
+
+Performance:
+- Reasoning: 82.21
+- Coding: 77.48
+- Agentic coding: 58.33
+- Mathematics: 85.24
+- Data analysis: 72.35
+- Language: 80.35
+- Instruction following: 60.52
+
+## gemini-3-pro-preview-11-2025-high
+Organization: Google
+Global score: 73.39
+
+Performance:
+- Reasoning: 77.42
+- Coding: 74.6
+- Agentic coding: 55.0
+- Mathematics: 81.84
+- Data analysis: 74.39
+- Language: 84.62
+- Instruction following: 65.85
+
+## gpt-5.3-codex-high
+Organization: OpenAI
+Global score: 72.76
+
+Performance:
+- Reasoning: 80.15
+- Coding: 78.18
+- Agentic coding: 55.0
+- Mathematics: 87.84
+- Data analysis: 62.69
+- Language: 80.09
+- Instruction following: 65.38
+
+## gemini-3-flash-preview-high
+Organization: Google
+Global score: 72.4
+
+Performance:
+- Reasoning: 74.55
+- Coding: 73.9
+- Agentic coding: 40.0
+- Mathematics: 84.17
+- Data analysis: 74.77
+- Language: 84.56
+- Instruction following: 74.86
+
+## gpt-5.1-2025-11-13-high
+Organization: OpenAI
+Global score: 72.04
+
+Performance:
+- Reasoning: 78.79
+- Coding: 72.49
+- Agentic coding: 53.33
+- Mathematics: 86.9
+- Data analysis: 69.61
+- Language: 79.26
+- Instruction following: 63.9
+
+## gpt-5.1-codex-max
+Organization: OpenAI
+Global score: 71.95
+
+Performance:
+- Reasoning: 84.57
+- Coding: 81.38
+- Agentic coding: 56.67
+- Mathematics: 83.66
+- Data analysis: 54.89
+- Language: 75.39
+- Instruction following: 67.13
+
+## gpt-5.2-2025-12-11-medium
+Organization: OpenAI
+Global score: 71.84
+
+Performance:
+- Reasoning: 84.17
+- Coding: 72.11
+- Agentic coding: 51.67
+- Mathematics: 92.07
+- Data analysis: 70.37
+- Language: 74.94
+- Instruction following: 57.53
+
+## gpt-5.3-codex-xhigh
+Organization: OpenAI
+Global score: 71.64
+
+Performance:
+- Reasoning: 71.42
+- Coding: 77.48
+- Agentic coding: 66.67
+- Mathematics: 85.7
+- Data analysis: 49.68
+- Language: 79.18
+- Instruction following: 71.34
+
+## gpt-5-pro-2025-10-06
+Organization: OpenAI
+Global score: 70.48
+
+Performance:
+- Reasoning: 81.69
+- Coding: 72.11
+- Agentic coding: 51.67
+- Mathematics: 86.17
+- Data analysis: 57.04
+- Language: 80.69
+- Instruction following: 63.96
+
+## claude-sonnet-4-6-thinking-auto-low-effort
+Organization: Anthropic
+Global score: 70.44
+
+Performance:
+- Reasoning: 77.44
+- Coding: 74.28
+- Agentic coding: 63.33
+- Mathematics: 80.38
+- Data analysis: 74.61
+- Language: 71.39
+- Instruction following: 51.63
+
+## gpt-5.1-2025-11-13-medium
+Organization: OpenAI
+Global score: 69.17
+
+Performance:
+- Reasoning: 73.98
+- Coding: 75.69
+- Agentic coding: 53.33
+- Mathematics: 79.01
+- Data analysis: 63.22
+- Language: 78.66
+- Instruction following: 60.3
+
+## kimi-k2.5-thinking
+Organization: Moonshot AI
+Global score: 69.07
+
+Performance:
+- Reasoning: 75.96
+- Coding: 77.86
+- Agentic coding: 48.33
+- Mathematics: 84.87
+- Data analysis: 61.36
+- Language: 77.67
+- Instruction following: 57.41
+
+## glm-5
+Organization: Z.AI
+Global score: 68.85
+
+Performance:
+- Reasoning: 69.11
+- Coding: 73.64
+- Agentic coding: 55.0
+- Mathematics: 83.46
+- Data analysis: 67.9
+- Language: 77.53
+- Instruction following: 55.33
+
+## gpt-5.1-codex
+Organization: OpenAI
+Global score: 68.61
+
+Performance:
+- Reasoning: 81.98
+- Coding: 71.78
+- Agentic coding: 53.33
+- Mathematics: 79.58
+- Data analysis: 60.75
+- Language: 69.48
+- Instruction following: 63.39
+
+## claude-sonnet-4-5-20250929-thinking-64k
+Organization: Anthropic
+Global score: 68.19
+
+Performance:
+- Reasoning: 77.59
+- Coding: 80.36
+- Agentic coding: 53.33
+- Mathematics: 79.31
+- Data analysis: 56.97
+- Language: 76.45
+- Instruction following: 53.35
+
+## gpt-5-mini-high
+Organization: OpenAI
+Global score: 65.91
+
+Performance:
+- Reasoning: 68.32
+- Coding: 68.2
+- Agentic coding: 46.67
+- Mathematics: 82.2
+- Data analysis: 55.2
+- Language: 75.52
+- Instruction following: 65.27
+
+## claude-opus-4-5-20251101-thinking-64k-low-effort
+Organization: Anthropic
+Global score: 65.59
+
+Performance:
+- Reasoning: 70.44
+- Coding: 77.48
+- Agentic coding: 50.0
+- Mathematics: 76.65
+- Data analysis: 53.02
+- Language: 80.75
+- Instruction following: 50.81
+
+## gpt-5.2-2025-12-11-low
+Organization: OpenAI
+Global score: 65.33
+
+Performance:
+- Reasoning: 71.23
+- Coding: 73.9
+- Agentic coding: 50.0
+- Mathematics: 84.71
+- Data analysis: 52.74
+- Language: 70.18
+- Instruction following: 54.55
+
+## gemini-3-pro-preview-11-2025-low
+Organization: Google
+Global score: 63.9
+
+Performance:
+- Reasoning: 70.62
+- Coding: 70.64
+- Agentic coding: 55.0
+- Mathematics: 77.73
+- Data analysis: 66.91
+- Language: 79.49
+- Instruction following: 26.88
+
+## deepseek-v3.2-thinking
+Organization: DeepSeek
+Global score: 62.2
+
+Performance:
+- Reasoning: 77.17
+- Coding: 64.62
+- Agentic coding: 40.0
+- Mathematics: 85.03
+- Data analysis: 50.0
+- Language: 70.41
+- Instruction following: 48.19
+
+## grok-4-0709
+Organization: xAI
+Global score: 62.02
+
+Performance:
+- Reasoning: 79.13
+- Coding: 73.13
+- Agentic coding: 30.0
+- Mathematics: 83.02
+- Data analysis: 63.38
+- Language: 76.39
+- Instruction following: 29.07
+
+## claude-4-1-opus-20250805-thinking-32k
+Organization: Anthropic
+Global score: 61.81
+
+Performance:
+- Reasoning: 72.33
+- Coding: 74.66
+- Agentic coding: 48.33
+- Mathematics: 73.19
+- Data analysis: 48.98
+- Language: 72.76
+- Instruction following: 42.4
+
+## kimi-k2-thinking
+Organization: Moonshot AI
+Global score: 61.59
+
+Performance:
+- Reasoning: 63.49
+- Coding: 67.44
+- Agentic coding: 38.33
+- Mathematics: 81.1
+- Data analysis: 52.29
+- Language: 66.45
+- Instruction following: 62.03
+
+## claude-haiku-4-5-20251001-thinking-64k
+Organization: Anthropic
+Global score: 61.32
+
+Performance:
+- Reasoning: 61.68
+- Coding: 72.81
+- Agentic coding: 41.67
+- Mathematics: 77.53
+- Data analysis: 59.3
+- Language: 66.45
+- Instruction following: 49.78
+
+## claude-4-sonnet-20250514-thinking-64k
+Organization: Anthropic
+Global score: 61.27
+
+Performance:
+- Reasoning: 69.01
+- Coding: 77.48
+- Agentic coding: 40.0
+- Mathematics: 70.5
+- Data analysis: 54.63
+- Language: 72.91
+- Instruction following: 44.34
+
+## gpt-5-mini
+Organization: OpenAI
+Global score: 61.01
+
+Performance:
+- Reasoning: 58.65
+- Coding: 76.07
+- Agentic coding: 35.0
+- Mathematics: 74.38
+- Data analysis: 49.6
+- Language: 69.15
+- Instruction following: 64.22
+
+## gpt-5.1-codex-mini
+Organization: OpenAI
+Global score: 60.38
+
+Performance:
+- Reasoning: 64.71
+- Coding: 69.93
+- Agentic coding: 40.0
+- Mathematics: 76.26
+- Data analysis: 49.7
+- Language: 63.01
+- Instruction following: 59.02
+
+## minimax-m2.5
+Organization: Minimax
+Global score: 60.14
+
+Performance:
+- Reasoning: 59.3
+- Coding: 70.7
+- Agentic coding: 51.67
+- Mathematics: 77.41
+- Data analysis: 49.6
+- Language: 55.1
+- Instruction following: 57.23
+
+## grok-4-1-fast-reasoning
+Organization: xAI
+Global score: 59.99
+
+Performance:
+- Reasoning: 80.2
+- Coding: 69.61
+- Agentic coding: 31.67
+- Mathematics: 83.72
+- Data analysis: 52.24
+- Language: 74.33
+- Instruction following: 28.2
+
+## gpt-5.1-2025-11-13-low
+Organization: OpenAI
+Global score: 59.95
+
+Performance:
+- Reasoning: 59.64
+- Coding: 80.3
+- Agentic coding: 40.0
+- Mathematics: 68.38
+- Data analysis: 45.87
+- Language: 77.85
+- Instruction following: 47.62
+
+## claude-opus-4-5-20251101-medium-effort
+Organization: Anthropic
+Global score: 59.1
+
+Performance:
+- Reasoning: 53.21
+- Coding: 78.51
+- Agentic coding: 63.33
+- Mathematics: 66.32
+- Data analysis: 45.54
+- Language: 78.66
+- Instruction following: 28.11
+
+## deepseek-v3.2-exp-thinking
+Organization: DeepSeek
+Global score: 58.9
+
+Performance:
+- Reasoning: 64.37
+- Coding: 70.06
+- Agentic coding: 31.67
+- Mathematics: 82.4
+- Data analysis: 51.5
+- Language: 71.06
+- Instruction following: 41.27
+
+## claude-opus-4-5-20251101-high-effort
+Organization: Anthropic
+Global score: 58.59
+
+Performance:
+- Reasoning: 54.9
+- Coding: 77.8
+- Agentic coding: 61.67
+- Mathematics: 66.44
+- Data analysis: 45.61
+- Language: 77.09
+- Instruction following: 26.59
+
+## gemini-2.5-pro-06-05-highthinking
+Organization: Google
+Global score: 58.33
+
+Performance:
+- Reasoning: 70.81
+- Coding: 75.69
+- Agentic coding: 33.33
+- Mathematics: 68.32
+- Data analysis: 51.62
+- Language: 75.5
+- Instruction following: 33.07
+
+## glm-4.7
+Organization: Z.AI
+Global score: 58.09
+
+Performance:
+- Reasoning: 59.73
+- Coding: 73.13
+- Agentic coding: 41.67
+- Mathematics: 76.02
+- Data analysis: 55.17
+- Language: 65.23
+- Instruction following: 35.66
+
+## gemini-3-flash-preview-minimal
+Organization: Google
+Global score: 56.35
+
+Performance:
+- Reasoning: 49.17
+- Coding: 78.57
+- Agentic coding: 43.33
+- Mathematics: 68.1
+- Data analysis: 48.31
+- Language: 78.65
+- Instruction following: 28.32
+
+## claude-opus-4-5-20251101-low-effort
+Organization: Anthropic
+Global score: 55.77
+
+Performance:
+- Reasoning: 47.81
+- Coding: 78.18
+- Agentic coding: 50.0
+- Mathematics: 64.1
+- Data analysis: 44.17
+- Language: 77.18
+- Instruction following: 28.95
+
+## glm-4.6
+Organization: Z.AI
+Global score: 55.19
+
+Performance:
+- Reasoning: 62.06
+- Coding: 71.02
+- Agentic coding: 35.0
+- Mathematics: 81.13
+- Data analysis: 51.95
+- Language: 58.99
+- Instruction following: 26.19
+
+## claude-4-1-opus-20250805-base
+Organization: Anthropic
+Global score: 54.45
+
+Performance:
+- Reasoning: 40.89
+- Coding: 76.07
+- Agentic coding: 53.33
+- Mathematics: 62.83
+- Data analysis: 45.38
+- Language: 76.75
+- Instruction following: 25.92
+
+## claude-sonnet-4-5-20250929
+Organization: Anthropic
+Global score: 53.69
+
+Performance:
+- Reasoning: 42.29
+- Coding: 76.07
+- Agentic coding: 48.33
+- Mathematics: 62.62
+- Data analysis: 47.0
+- Language: 76.0
+- Instruction following: 23.52
+
+## gemini-2.5-flash-preview-09-2025-highthinking
+Organization: Google
+Global score: 53.09
+
+Performance:
+- Reasoning: 51.45
+- Coding: 67.5
+- Agentic coding: 23.33
+- Mathematics: 75.35
+- Data analysis: 60.98
+- Language: 65.34
+- Instruction following: 27.68
+
+## gpt-5-mini-low
+Organization: OpenAI
+Global score: 53.07
+
+Performance:
+- Reasoning: 45.9
+- Coding: 69.55
+- Agentic coding: 36.67
+- Mathematics: 63.24
+- Data analysis: 44.99
+- Language: 60.41
+- Instruction following: 50.71
+
+## qwen3-235b-a22b-thinking-2507
+Organization: Alibaba
+Global score: 52.97
+
+Performance:
+- Reasoning: 59.4
+- Coding: 68.97
+- Agentic coding: 6.67
+- Mathematics: 73.39
+- Data analysis: 52.18
+- Language: 69.52
+- Instruction following: 40.64
+
+## deepseek-v3.2
+Organization: DeepSeek
+Global score: 51.84
+
+Performance:
+- Reasoning: 44.25
+- Coding: 75.69
+- Agentic coding: 46.67
+- Mathematics: 63.95
+- Data analysis: 45.03
+- Language: 64.24
+- Instruction following: 23.06
+
+## claude-4-sonnet-20250514-base
+Organization: Anthropic
+Global score: 50.98
+
+Performance:
+- Reasoning: 39.67
+- Coding: 80.74
+- Agentic coding: 38.33
+- Mathematics: 60.36
+- Data analysis: 44.07
+- Language: 71.01
+- Instruction following: 22.68
+
+## qwen3-next-80b-a3b-thinking
+Organization: Alibaba
+Global score: 50.41
+
+Performance:
+- Reasoning: 58.16
+- Coding: 60.66
+- Agentic coding: 8.33
+- Mathematics: 74.26
+- Data analysis: 53.58
+- Language: 56.31
+- Instruction following: 41.54
+
+## deepseek-v3.2-exp
+Organization: DeepSeek
+Global score: 49.85
+
+Performance:
+- Reasoning: 45.5
+- Coding: 73.19
+- Agentic coding: 36.67
+- Mathematics: 64.38
+- Data analysis: 44.26
+- Language: 65.6
+- Instruction following: 19.33
+
+## gpt-5.2-2025-12-11-nothinking
+Organization: OpenAI
+Global score: 48.91
+
+Performance:
+- Reasoning: 42.8
+- Coding: 76.45
+- Agentic coding: 40.0
+- Mathematics: 58.25
+- Data analysis: 47.68
+- Language: 49.97
+- Instruction following: 27.2
+
+## qwen3-235b-a22b-instruct-2507
+Organization: Alibaba
+Global score: 48.84
+
+Performance:
+- Reasoning: 58.43
+- Coding: 69.61
+- Agentic coding: 13.33
+- Mathematics: 68.03
+- Data analysis: 44.72
+- Language: 66.07
+- Instruction following: 21.72
+
+## gpt-5-nano-high
+Organization: OpenAI
+Global score: 48.62
+
+Performance:
+- Reasoning: 40.29
+- Coding: 62.39
+- Agentic coding: 23.33
+- Mathematics: 68.41
+- Data analysis: 43.41
+- Language: 46.84
+- Instruction following: 55.7
+
+## gpt-5-nano
+Organization: OpenAI
+Global score: 48.56
+
+Performance:
+- Reasoning: 35.45
+- Coding: 67.38
+- Agentic coding: 28.33
+- Mathematics: 64.7
+- Data analysis: 44.32
+- Language: 47.73
+- Instruction following: 51.98
+
+## qwen3-next-80b-a3b-instruct
+Organization: Alibaba
+Global score: 48.35
+
+Performance:
+- Reasoning: 54.75
+- Coding: 68.2
+- Agentic coding: 10.0
+- Mathematics: 70.18
+- Data analysis: 49.78
+- Language: 66.34
+- Instruction following: 19.19
+
+## kimi-k2-instruct
+Organization: Moonshot AI
+Global score: 48.1
+
+Performance:
+- Reasoning: 42.23
+- Coding: 74.28
+- Agentic coding: 31.67
+- Mathematics: 58.15
+- Data analysis: 43.34
+- Language: 66.69
+- Instruction following: 20.36
+
+## gemini-2.5-flash-06-05-highthinking
+Organization: Google
+Global score: 47.74
+
+Performance:
+- Reasoning: 44.64
+- Coding: 66.03
+- Agentic coding: 16.67
+- Mathematics: 68.75
+- Data analysis: 47.31
+- Language: 62.27
+- Instruction following: 28.5
+
+## gpt-oss-120b
+Organization: OpenAI
+Global score: 46.09
+
+Performance:
+- Reasoning: 39.21
+- Coding: 60.21
+- Agentic coding: 16.67
+- Mathematics: 68.87
+- Data analysis: 38.8
+- Language: 48.59
+- Instruction following: 50.29
+
+## claude-haiku-4-5-20251001
+Organization: Anthropic
+Global score: 45.33
+
+Performance:
+- Reasoning: 33.94
+- Coding: 72.17
+- Agentic coding: 33.33
+- Mathematics: 57.97
+- Data analysis: 45.13
+- Language: 57.05
+- Instruction following: 17.75
+
+## grok-code-fast-1-0825
+Organization: xAI
+Global score: 45.13
+
+Performance:
+- Reasoning: 42.3
+- Coding: 64.44
+- Agentic coding: 33.33
+- Mathematics: 56.01
+- Data analysis: 48.99
+- Language: 48.56
+- Instruction following: 22.27
+
+## qwen3-32b-thinking
+Organization: Alibaba
+Global score: 43.56
+
+Performance:
+- Reasoning: 48.25
+- Coding: 66.03
+- Agentic coding: 3.33
+- Mathematics: 67.44
+- Data analysis: 46.54
+- Language: 55.54
+- Instruction following: 17.77
+
+## gpt-5.1-2025-11-13-nothinking
+Organization: OpenAI
+Global score: 42.65
+
+Performance:
+- Reasoning: 26.81
+- Coding: 77.48
+- Agentic coding: 28.33
+- Mathematics: 44.51
+- Data analysis: 44.07
+- Language: 53.84
+- Instruction following: 23.5
+
+## gemini-2.5-flash-lite-highthinking
+Organization: Google
+Global score: 42.56
+
+Performance:
+- Reasoning: 43.34
+- Coding: 66.41
+- Agentic coding: 5.0
+- Mathematics: 61.04
+- Data analysis: 47.04
+- Language: 51.98
+- Instruction following: 23.08
+
+## gemini-2.5-flash-lite-preview-09-2025-highthinking
+Organization: Google
+Global score: 42.39
+
+Performance:
+- Reasoning: 36.16
+- Coding: 65.39
+- Agentic coding: 1.67
+- Mathematics: 64.9
+- Data analysis: 47.88
+- Language: 52.6
+- Instruction following: 28.11
+
+## devstral-2512
+Organization: Mistral
+Global score: 41.24
+
+Performance:
+- Reasoning: 27.74
+- Coding: 66.79
+- Agentic coding: 43.33
+- Mathematics: 52.52
+- Data analysis: 39.14
+- Language: 45.67
+- Instruction following: 13.5
+
+## glm-4.6v
+Organization: Z.AI
+Global score: 40.07
+
+Performance:
+- Reasoning: 37.22
+- Coding: 64.24
+- Agentic coding: 3.33
+- Mathematics: 62.5
+- Data analysis: 46.41
+- Language: 49.74
+- Instruction following: 17.06
+
+## gpt-5-mini-minimal
+Organization: OpenAI
+Global score: 39.9
+
+Performance:
+- Reasoning: 32.3
+- Coding: 70.7
+- Agentic coding: 21.67
+- Mathematics: 47.53
+- Data analysis: 41.51
+- Language: 44.79
+- Instruction following: 20.81
+
+## qwen3-30b-a3b-thinking
+Organization: Alibaba
+Global score: 39.01
+
+Performance:
+- Reasoning: 36.68
+- Coding: 48.88
+- Agentic coding: 1.67
+- Mathematics: 65.35
+- Data analysis: 44.92
+- Language: 54.47
+- Instruction following: 21.11
+
+## gpt-5-nano-low
+Organization: OpenAI
+Global score: 34.34
+
+Performance:
+- Reasoning: 27.68
+- Coding: 52.73
+- Agentic coding: 10.0
+- Mathematics: 48.91
+- Data analysis: 36.57
+- Language: 35.4
+- Instruction following: 29.1
+
+## grok-4-1-fast-non-reasoning
+Organization: xAI
+Global score: 33.45
+
+Performance:
+- Reasoning: 23.35
+- Coding: 54.26
+- Agentic coding: 10.0
+- Mathematics: 38.92
+- Data analysis: 40.61
+- Language: 50.01
+- Instruction following: 16.98
+
+## arcee-trinity-large-preview
+Organization: Arcee
+Global score: 32.74
+
+Performance:
+- Reasoning: 20.61
+- Coding: 65.65
+- Agentic coding: 3.33
+- Mathematics: 44.93
+- Data analysis: 40.33
+- Language: 42.15
+- Instruction following: 12.19
